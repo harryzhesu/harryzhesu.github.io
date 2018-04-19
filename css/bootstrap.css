@@ -6583,4 +6583,17 @@ button.close {
     display: none !important;
   }
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 /*# sourceMappingURL=bootstrap.css.map */
